@@ -7,7 +7,6 @@ CloudSnap lets users upload photos with captions and share them in a live feed, 
 Under the hood, every image is validated, securely stored in **Amazon S3**, and served globally through **Amazon CloudFront** for near-instant load times anywhere in the world. The backend runs on **FastAPI** with full async support, so it stays fast and responsive even under load.
 
 ![CloudSnap](imagess/mainim.png)
-![Uploading 1363709.png…]()
 
 
 ## Overview
