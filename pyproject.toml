@@ -1,0 +1,27 @@
+[project]
+name = "cloudsnap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DevanshSoni639", email = "devansh9soni16@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.0",
+    "asyncpg>=0.31.0",
+    "boto3>=1.43.96",
+    "boto3-stubs~=1.43.96",
+    "fastapi[standard]>=0.141.1",
+    "pydantic>=2.13.5",
+    "slowapi>=0.1.10",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+cloudsnap = "cloudsnap:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
