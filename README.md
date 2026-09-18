@@ -6,7 +6,9 @@ CloudSnap lets users upload photos with captions and share them in a live feed, 
 
 Under the hood, every image is validated, securely stored in **Amazon S3**, and served globally through **Amazon CloudFront** for near-instant load times anywhere in the world. The backend runs on **FastAPI** with full async support, so it stays fast and responsive even under load.
 
-![CloudSnap](imagess/mainim.png)
+
+<img width="1536" height="1024" alt="mainim" src="https://github.com/user-attachments/assets/3ace8c1b-beff-4dde-867b-b27546e7d10a" />
+
 
 
 ## Overview
@@ -87,9 +89,9 @@ Schema changes are **not** applied via `create_all()`. Instead, the project uses
  
 <table>
 <tr>
-<td><img src="imagess/s1.png" width="280"></td>
-<td><img src="imagess/s2.png" width="280"></td>
-<td><img src="imagess/s3.png" width="280"></td>
+<td><img width="672" height="1061" alt="s1" src="https://github.com/user-attachments/assets/8314f0e5-bdcf-4252-98a6-8a1c571e72d0" /></td>
+<td><img width="656" height="1039" alt="s2" src="https://github.com/user-attachments/assets/86eb1579-f1a3-4107-8714-e72bf050aa07" /></td>
+<td><img width="705" height="1016" alt="s3" src="https://github.com/user-attachments/assets/0c2ea37e-eeba-4edc-85b4-86c2c7fbf558" /></td>
 </tr>
 </table>
 ---
